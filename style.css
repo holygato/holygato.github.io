@@ -1,27 +1,51 @@
-.fontediferente1{
+body{
+    padding: 3%;
+}
+
+.MeuNome{
     font-family: fantasy;
-  }
+    text-align: center;
+}
 
-  .fontediferente2{
+.Descrição{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
 
-  .tamanho1{
+.tamanho1{
     font-size: large;
-  }
+}
 
-  .tamanho2{
+.tamanho2{
     font-size: medium;
-  }
+}
 
-  .tamanho3{
-    font-size: smaller;
-  }
+.tamanho3{
+    font-size: medium;
+}
 
-  body{
+body{
     background-color: bisque;
-  }
+}
 
-  *negrito{
+*negrito{
     font: 800px;
-  }
+}
+
+#MinhaFoto{
+    float:left;
+    height: 160px;
+    padding: 20px;
+    background-color: indigo;
+}
+
+.image-container{
+    height: 200px;
+    position: relative;
+}
+
+ul li:nth-child(odd){
+    background-color: ivory;
+}
