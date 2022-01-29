@@ -1,0 +1,27 @@
+.fontediferente1{
+    font-family: fantasy;
+  }
+
+  .fontediferente2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .tamanho1{
+    font-size: large;
+  }
+
+  .tamanho2{
+    font-size: medium;
+  }
+
+  .tamanho3{
+    font-size: smaller;
+  }
+
+  body{
+    background-color: bisque;
+  }
+
+  *negrito{
+    font: 800px;
+  }
